@@ -5,8 +5,8 @@ import '../styles/Home.css'
 
 function Home() {
     return (
-        <div className="home">
-            <div className="headerContainer" style={{backgroundImage: `url(${BannerImage})`}}>
+        <div className="home" style={{backgroundImage: `url(${BannerImage})`}}>
+            <div className="headerContainer" >
                 <h1>Felicio's Pizzeria</h1>
                 <p>PIZZA KONA IMI NIA GOSTU HOTU</p>
 
