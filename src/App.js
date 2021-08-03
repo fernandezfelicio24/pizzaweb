@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
+import About from './pages/About';
+
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/menu" exact component={Menu}/>
+        <Route path="/about" exact component={About}/>
       </Switch>
       <Footer/>
       </Router>
